@@ -9,19 +9,19 @@ async def main():
     api = API()  # or API("path-to.db") - default is `accounts.db`
 
     # ADD ACCOUNTS (for CLI usage see BELOW)
-    # await api.pool.add_account("user", "pass1", "email@gmail.com", "pass")
+    # await api.pool.add_account("user", "psw", "user@gmail.com", "psw")
     # await api.pool.login_all()
     queries = [
-        "(#bank) lang:en until:2024-01-01 since:2022-01-01",
-        "(#bankcrisis) lang:en until:2024-01-01 since:2022-01-01",
-        "(#bankcrash) lang:en until:2024-01-01 since:2022-01-01",
-        "(#BankRun) lang:en until:2024-01-01 since:2022-01-01",
-        "(#BankingSector) lang:en until:2024-01-01 since:2022-01-01",
-        "(#BankingCollapse) lang:en until:2024-01-01 since:2022-01-01",
-        "(#BankingRegulations) lang:en until:2024-01-01 since:2022-01-01",
-        "(#BankingMeltdown) lang:en until:2024-01-01 since:2022-01-01",
-        "(#TrustworthyBanking) lang:en until:2024-01-01 since:2022-01-01",
-        "(#BankingExcellence) lang:en until:2024-01-01 since:2022-01-01",
+        "(#bank) lang:zh-tw until:2024-01-01 since:2012-01-01",
+        "(#bankcrisis) lang:zh-tw until:2024-01-01 since:2012-01-01",
+        "(#bankcrash) lang:zh-tw until:2024-01-01 since:2012-01-01",
+        "(#BankRun) lang:zh-tw until:2024-01-01 since:2012-01-01",
+        "(#BankingSector) lang:zh-tw until:2024-01-01  since:2012-01-01",
+        "(#BankingCollapse) lang:zh-tw until:2024-01-01  since:2012-01-01",
+        "(#BankingRegulations) lang:zh-tw until:2024-01-01  since:2012-01-01",
+        "(#BankingMeltdown) lang:zh-tw until:2024-01-01  since:2012-01-01",
+        "(#TrustworthyBanking) lang:zh-tw until:2024-01-01  since:2012-01-01",
+        "(#BankingExcellence) lang:zh-tw until:2024-01-01  since:2012-01-01",
     ]
     for q in queries:
         async for tweet in api.search(q, limit=5000):
@@ -34,7 +34,7 @@ async def main():
                       columns=['TweetId', 'UserId', 'UserUsername', 'Date', 'Location', 'Tweet', 'Media', 'Likes',
                                'Retweets', 'Comments'])
     print(df)
-    df.to_csv('TwitterData.csv')
+    df.to_csv('TwitterData_CNT.csv')
 
 
 if __name__ == "__main__":
