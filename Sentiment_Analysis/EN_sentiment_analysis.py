@@ -1,14 +1,7 @@
-import gensim
-import numpy as np
 import pandas as pd
 import seaborn as sns
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, f1_score, confusion_matrix, classification_report, ConfusionMatrixDisplay
-from sklearn.model_selection import GridSearchCV, train_test_split
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import matplotlib
-from xgboost import XGBClassifier
-
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 from matplotlib import style
@@ -19,27 +12,15 @@ from preprocessing import *
 
 # read csv files
 eng = pd.read_csv('../Twitter_Datasets/TwitterData_EN.csv')
-fr = pd.read_csv('../Twitter_Datasets/TwitterData_FR.csv')
-cn = pd.read_csv('../Twitter_Datasets/TwitterData_CN.csv')
-de = pd.read_csv('../Twitter_Datasets/TwitterData_DE.csv')
-es = pd.read_csv('../Twitter_Datasets/TwitterData_ES.csv')
-it = pd.read_csv('../Twitter_Datasets/TwitterData_IT.csv')
+
 
 # preprocess of tweets
 eng.Tweet = eng['Tweet'].apply(data_processing_en)
-fr.Tweet = fr['Tweet'].apply(data_processing_fr)
-es.Tweet = es['Tweet'].apply(data_processing_es)
-de.Tweet = de['Tweet'].apply(data_processing_de)
-it.Tweet = it['Tweet'].apply(data_processing_it)
-cn.Tweet = cn['Tweet'].apply(data_processing_cn)
+
 
 # drop duplicate tweets
 eng = eng.drop_duplicates('Tweet')
-fr = fr.drop_duplicates('Tweet')
-it = it.drop_duplicates('Tweet')
-es = es.drop_duplicates('Tweet')
-de = de.drop_duplicates('Tweet')
-cn = cn.drop_duplicates('Tweet')
+
 
 # Create a SentimentIntensityAnalyzer object
 analyzer = SentimentIntensityAnalyzer()

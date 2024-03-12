@@ -1,18 +1,17 @@
+import jieba
 from cleantext import clean
 import re
 from nltk import word_tokenize
 from nltk.stem.snowball import SnowballStemmer
-
 from nltk.corpus import stopwords
-import jieba.posseg as pseg
+import stopwordsiso
 
 stop_words_en = set(stopwords.words('english'))
 stop_words_fr = set(stopwords.words('french'))
 stop_words_it = set(stopwords.words('italian'))
 stop_words_sp = set(stopwords.words('spanish'))
 stop_words_de = set(stopwords.words('german'))
-stop_words_cn = set(stopwords.words('chinese'))
-
+stop_words_cn = stopwordsiso.stopwords(["zh","en"])
 
 
 def data_processing_en(text):
@@ -115,6 +114,7 @@ def data_processing_cn(text):
     # Removing Punctuation:
     text = re.sub(r'[^\w\s]', '', text)
     # text = clean(text, no_emoji=True)
-    text_tokens =list(text)
+    text_tokens = jieba.cut(text, cut_all=True)
     filtered_text = [w for w in text_tokens if not w in stop_words_cn]
+    filtered_text = [w for w in filtered_text if w.strip()]
     return " ".join(filtered_text)
