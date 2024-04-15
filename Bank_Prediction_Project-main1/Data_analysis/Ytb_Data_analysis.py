@@ -2,12 +2,13 @@ import numpy as np
 import pandas as pd
 import matplotlib
 
+from Sentiment_Analysis.preprocessing import *
+
 matplotlib.use('TkAgg')
 from matplotlib import pyplot as plt
-from Sentiment_Analysis.preprocessing import *
 from collections import Counter
 import seaborn as sns
-
+from matplotlib import font_manager
 # read csv files
 eng = pd.read_csv('../Youtube_Datasets/all_comments.csv')
 fr = pd.read_csv('../Youtube_Datasets/all_commentsFR.csv')
@@ -90,7 +91,7 @@ de = de.drop_duplicates('Text')
 cn = cn.drop_duplicates('Text')
 
 
-def wordBarGraphFunction(df, column, title):
+def wordBarGraphFunction(df, column, title,fontP):
     topic_words = [z.lower() for y in
                    [x.split() for x in df[column] if isinstance(x, str)]
                    for z in y]
@@ -98,27 +99,30 @@ def wordBarGraphFunction(df, column, title):
     popular_words = sorted(word_count_dict, key=word_count_dict.get, reverse=True)
     popular_words_nonstop = [w for w in popular_words]
     plt.barh(range(20), [word_count_dict[w] for w in reversed(popular_words_nonstop[0:20])])
-    plt.yticks([x + 0.1 for x in range(20)], reversed(popular_words_nonstop[0:20]))
+    plt.yticks([x + 0.1 for x in range(20)], reversed(popular_words_nonstop[0:20]), fontproperties=fontP)
     plt.title(title)
     plt.show()
+    print(popular_words_nonstop[0:20])
+
+fontP = [font_manager.FontProperties(fname=r'C:\Users\DELL\Desktop\3SC\SimHei.ttf', size=14),
+         font_manager.FontProperties(fname=r'C:\Windows\Fonts\arial.ttf', size=14)
+         ]
 
 
 plt.figure(figsize=(10, 10))
-wordBarGraphFunction(eng, 'Text', "Most common words in english dataset")
+wordBarGraphFunction(eng, 'Text', "Most common words in english dataset",fontP[1])
 
 plt.figure(figsize=(10, 10))
-wordBarGraphFunction(fr, 'Text', "Most common words in french dataset")
+wordBarGraphFunction(fr, 'Text', "Most common words in french dataset",fontP[1])
 
 plt.figure(figsize=(10, 10))
-wordBarGraphFunction(it, 'Text', "Most common words in italian dataset")
+wordBarGraphFunction(it, 'Text', "Most common words in italian dataset",fontP[1])
 
 plt.figure(figsize=(10, 10))
-wordBarGraphFunction(es, 'Text', "Most common words in spanish dataset")
+wordBarGraphFunction(es, 'Text', "Most common words in spanish dataset",fontP[1])
 
 plt.figure(figsize=(10, 10))
-wordBarGraphFunction(de, 'Text', "Most common words in german dataset")
+wordBarGraphFunction(de, 'Text', "Most common words in german dataset",fontP[1])
 
-# plt.figure(figsize=(10, 10))
-# wordBarGraphFunction(text_cn, 'Tweet', "Most common words in chinese dataset")
-
-
+plt.figure(figsize=(10, 10))
+wordBarGraphFunction(cn, 'Text', "Most common words in chinese dataset",fontP[0])
