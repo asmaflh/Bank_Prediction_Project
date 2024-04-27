@@ -50,6 +50,7 @@ def sentiment(label):
 
 
 de['Sentiment'] = de['Polarity'].apply(sentiment)
+de.to_csv("TwitterData_Class_DE.csv")
 
 print(de.head())
 # plot the sentiments
@@ -153,3 +154,5 @@ plt.title('Low Polarity per Date')
 plt.show()
 
 print(average_polarity.values)
+
+

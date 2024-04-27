@@ -2,13 +2,15 @@ import pandas as pd
 import seaborn as sns
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import matplotlib
+
+from Sentiment_Analysis.preprocessing import data_processing_en
+
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 from matplotlib import style
 
 style.use('ggplot')
 from wordcloud import WordCloud
-from preprocessing import *
 
 # read csv files
 eng = pd.read_csv('../Twitter_Datasets/TwitterData_EN.csv')
@@ -49,7 +51,7 @@ def sentiment(label):
 
 
 eng['Sentiment'] = eng['Polarity'].apply(sentiment)
-
+#eng.to_csv("TwitterData_Class_EN.csv")
 print(eng.head())
 # plot the sentiments
 fig = plt.figure(figsize=(5, 5))
@@ -152,3 +154,5 @@ plt.title('Low Polarity per Date')
 plt.show()
 
 print(average_polarity.values)
+
+

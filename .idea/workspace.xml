@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f0907b1a-1cac-46b4-aaa0-e7d8ae383cd7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Data_analysis/Ytb_Data_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_analysis/Ytb_Data_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Data_analysis/data_analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Read_Comments/ytbcomensEN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Read_Comments/ytbcomensEN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Read_Comments/ytbcomentsALL.py" beforeDir="false" afterPath="$PROJECT_DIR$/Read_Comments/ytbcomentsALL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Read_Comments/ytbcomentsCH.py" beforeDir="false" afterPath="$PROJECT_DIR$/Read_Comments/ytbcomentsCH.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Read_Comments/ytbcomentsES.py" beforeDir="false" afterPath="$PROJECT_DIR$/Read_Comments/ytbcomentsES.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Read_Comments/ytbcomentsFR.py" beforeDir="false" afterPath="$PROJECT_DIR$/Read_Comments/ytbcomentsFR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Read_Comments/ytbcomentsIT.py" beforeDir="false" afterPath="$PROJECT_DIR$/Read_Comments/ytbcomentsIT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Sentiment_Analysis/CN_sentiment_analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Sentiment_Analysis/DE_sentiment_analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Sentiment_Analysis/EN_sentiment_analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Sentiment_Analysis/FR_sentiment_analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Sentiment_Analysis/IT_sentiment_analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Sentiment_Analysis/SP_sentiment_analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Sentiment_Analysis/preprocessing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Twitter_Datasets/TwitterData_CN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Twitter_Datasets/TwitterData_CNT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Twitter_Datasets/TwitterData_DE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Twitter_Datasets/TwitterData_EN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Twitter_Datasets/TwitterData_ES.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Twitter_Datasets/TwitterData_FR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Twitter_Datasets/TwitterData_IT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/YT_Sentiment_Analysis/Sentiment.english.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/Sentiment.english.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/YT_Sentiment_Analysis/sentiment.French.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.French.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/YT_Sentiment_Analysis/sentiment.German.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.German.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/YT_Sentiment_Analysis/sentiment.chinois.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.chinois.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/YT_Sentiment_Analysis/sentiment.italie.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.italie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/YT_Sentiment_Analysis/sentiment.spanish.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.spanish.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Youtube_Datasets/all_comments.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Youtube_Datasets/all_commentsALL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Youtube_Datasets/all_commentsCH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Youtube_Datasets/all_commentsES.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Youtube_Datasets/all_commentsFR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Youtube_Datasets/all_commentsIT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/merge_csv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/twitter_scraper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentiment_Analysis/CN_sentiment_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sentiment_Analysis/CN_sentiment_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentiment_Analysis/DE_sentiment_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sentiment_Analysis/DE_sentiment_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentiment_Analysis/EN_sentiment_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sentiment_Analysis/EN_sentiment_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentiment_Analysis/FR_sentiment_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sentiment_Analysis/FR_sentiment_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentiment_Analysis/IT_sentiment_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sentiment_Analysis/IT_sentiment_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentiment_Analysis/SP_sentiment_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sentiment_Analysis/SP_sentiment_analysis.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2bjO6whd1yGbuZYzonrWLh0j5iO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/PycharmProjects/3csProject&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\PycharmProjects\3csProject" />
+      <recent name="C:\Users\HP\PycharmProjects\3csProject\Youtube_Datasets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\PycharmProjects\3csProject\Time_series_dec" />
+      <recent name="C:\Users\HP\PycharmProjects\3csProject\Sentiment_Analysis" />
+      <recent name="C:\Users\HP\PycharmProjects\3csProject\Sentiment_Analysis\Classification" />
+      <recent name="C:\Users\HP\PycharmProjects\3csProject\Sentiment_Twitter_Data" />
+      <recent name="C:\Users\HP\PycharmProjects\3csProject\Sentiment_Analysis_Visualization\Twitter" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="3csProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0907b1a-1cac-46b4-aaa0-e7d8ae383cd7" name="Changes" comment="" />
+      <created>1706724850005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706724850005</updated>
+      <workItem from="1706724859113" duration="118000" />
+      <workItem from="1706725085337" duration="12537000" />
+      <workItem from="1706792146358" duration="4498000" />
+      <workItem from="1706826383366" duration="3756000" />
+      <workItem from="1707127370184" duration="9873000" />
+      <workItem from="1707414924055" duration="676000" />
+      <workItem from="1707522665686" duration="2982000" />
+      <workItem from="1707571112257" duration="22031000" />
+      <workItem from="1707755781679" duration="6339000" />
+      <workItem from="1707843951903" duration="10406000" />
+      <workItem from="1707913335216" duration="5114000" />
+      <workItem from="1708010940116" duration="1691000" />
+      <workItem from="1708112654962" duration="2069000" />
+      <workItem from="1708456502151" duration="13296000" />
+      <workItem from="1708522120355" duration="9944000" />
+      <workItem from="1708701829467" duration="3493000" />
+      <workItem from="1708713435494" duration="4890000" />
+      <workItem from="1708718792626" duration="1055000" />
+      <workItem from="1709130078778" duration="1685000" />
+      <workItem from="1709412407077" duration="2778000" />
+      <workItem from="1709416410397" duration="5440000" />
+      <workItem from="1709497299257" duration="534000" />
+      <workItem from="1709741558822" duration="7384000" />
+      <workItem from="1709755178714" duration="12138000" />
+      <workItem from="1709850340172" duration="5514000" />
+      <workItem from="1709986700762" duration="6897000" />
+      <workItem from="1710282869030" duration="1718000" />
+      <workItem from="1710801064751" duration="3139000" />
+      <workItem from="1710974366225" duration="3388000" />
+      <workItem from="1712134532200" duration="1454000" />
+      <workItem from="1712187864167" duration="7991000" />
+      <workItem from="1713043140317" duration="11371000" />
+      <workItem from="1713108170454" duration="7303000" />
+      <workItem from="1713139796823" duration="2436000" />
+      <workItem from="1713197772301" duration="6150000" />
+      <workItem from="1713204059312" duration="1315000" />
+      <workItem from="1713488347709" duration="1454000" />
+      <workItem from="1713531256066" duration="1886000" />
+      <workItem from="1713534906479" duration="901000" />
+      <workItem from="1713625342442" duration="10161000" />
+      <workItem from="1713804248498" duration="12576000" />
+      <workItem from="1713907312211" duration="1249000" />
+      <workItem from="1714072256734" duration="10870000" />
+      <workItem from="1714136898106" duration="1562000" />
+      <workItem from="1714144160981" duration="18533000" />
+      <workItem from="1714252706632" duration="1459000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/3csProject$sentiment_italie.coverage" NAME="sentiment.italie Coverage Results" MODIFIED="1710977057578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YT_Sentiment_Analysis" />
+    <SUITE FILE_PATH="coverage/3csProject$testing.coverage" NAME="testing Coverage Results" MODIFIED="1713831850951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec" />
+    <SUITE FILE_PATH="coverage/3csProject$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1713535101295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/3csProject$data_analysis.coverage" NAME="data_analysis Coverage Results" MODIFIED="1709421765780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis" />
+    <SUITE FILE_PATH="coverage/3csProject$yahooFinance_scrapper.coverage" NAME="yahooFinance_scrapper Coverage Results" MODIFIED="1713113383844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/3csProject$test.coverage" NAME="test Coverage Results" MODIFIED="1714154445093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec" />
+    <SUITE FILE_PATH="coverage/3csProject$FCA2.coverage" NAME="FCA2 Coverage Results" MODIFIED="1714162024370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec" />
+    <SUITE FILE_PATH="coverage/3csProject$FR_sentiment_analysis.coverage" NAME="FR_sentiment_analysis Coverage Results" MODIFIED="1713626620040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis" />
+    <SUITE FILE_PATH="coverage/3csProject$sentiment_spanish.coverage" NAME="sentiment.spanish Coverage Results" MODIFIED="1710974999873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bank_Prediction_Project-main1/YT_Sentiment_Analysis" />
+    <SUITE FILE_PATH="coverage/3csProject$DE_sentiment_analysis.coverage" NAME="DE_sentiment_analysis Coverage Results" MODIFIED="1713626548857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis" />
+    <SUITE FILE_PATH="coverage/3csProject$CN_sentiment_analysis.coverage" NAME="CN_sentiment_analysis Coverage Results" MODIFIED="1713626294834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis" />
+    <SUITE FILE_PATH="coverage/3csProject$csvtoxml.coverage" NAME="csvtoxml Coverage Results" MODIFIED="1714162485223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec" />
+    <SUITE FILE_PATH="coverage/3csProject$preprocessing.coverage" NAME="preprocessing Coverage Results" MODIFIED="1709417782641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis" />
+    <SUITE FILE_PATH="coverage/3csProject$main.coverage" NAME="main Coverage Results" MODIFIED="1707127495505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/3csProject$SP_sentiment_analysis.coverage" NAME="SP_sentiment_analysis Coverage Results" MODIFIED="1713626361481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis" />
+    <SUITE FILE_PATH="coverage/3csProject$ytb_sentimentanalysis.coverage" NAME="ytb_sentimentanalysis Coverage Results" MODIFIED="1707762133095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/3csProject$twitter_scraper.coverage" NAME="twitter_scraper Coverage Results" MODIFIED="1708017770108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/3csProject$chinese_pre.coverage" NAME="chinese_pre Coverage Results" MODIFIED="1709412789954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/3csProject$Ytb_Data_analysis.coverage" NAME="Ytb_Data_analysis Coverage Results" MODIFIED="1710976935556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_analysis" />
+    <SUITE FILE_PATH="coverage/3csProject$csvtoslf.coverage" NAME="csvtoslf Coverage Results" MODIFIED="1714153754067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec" />
+    <SUITE FILE_PATH="coverage/3csProject$french_SA.coverage" NAME="french_SA Coverage Results" MODIFIED="1709747214843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis" />
+    <SUITE FILE_PATH="coverage/3csProject$IT_sentiment_analysis.coverage" NAME="IT_sentiment_analysis Coverage Results" MODIFIED="1713626671595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis" />
+    <SUITE FILE_PATH="coverage/3csProject$English.coverage" NAME="English Coverage Results" MODIFIED="1713627605630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis/Visualization" />
+    <SUITE FILE_PATH="coverage/3csProject$en_dec.coverage" NAME="en_dec Coverage Results" MODIFIED="1713804453436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec" />
+    <SUITE FILE_PATH="coverage/3csProject$sentiment_analysis.coverage" NAME="sentiment_analysis Coverage Results" MODIFIED="1709131037434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis" />
+    <SUITE FILE_PATH="coverage/3csProject$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1713534978990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/3csProject$FCA.coverage" NAME="FCA Coverage Results" MODIFIED="1714159061023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec" />
+    <SUITE FILE_PATH="coverage/3csProject$merge_csv.coverage" NAME="merge_csv Coverage Results" MODIFIED="1708113875995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/3csProject$Doctests_in_series.coverage" NAME="Doctests in series Coverage Results" MODIFIED="1713048082388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/3csProject/Lib/site-packages/pandas/core" />
+    <SUITE FILE_PATH="coverage/3csProject$EN_sentiment_analysis.coverage" NAME="EN_sentiment_analysis Coverage Results" MODIFIED="1713628451862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis" />
+  </component>
+</project>
