@@ -152,3 +152,4 @@ plt.title('Low Polarity per Date')
 plt.show()
 
 print(average_polarity.values)
+

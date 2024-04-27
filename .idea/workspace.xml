@@ -2,48 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0907b1a-1cac-46b4-aaa0-e7d8ae383cd7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Data_analysis/Ytb_Data_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_analysis/Ytb_Data_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Data_analysis/data_analysis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Read_Comments/ytbcomensEN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Read_Comments/ytbcomensEN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Read_Comments/ytbcomentsALL.py" beforeDir="false" afterPath="$PROJECT_DIR$/Read_Comments/ytbcomentsALL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Read_Comments/ytbcomentsCH.py" beforeDir="false" afterPath="$PROJECT_DIR$/Read_Comments/ytbcomentsCH.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Read_Comments/ytbcomentsES.py" beforeDir="false" afterPath="$PROJECT_DIR$/Read_Comments/ytbcomentsES.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Read_Comments/ytbcomentsFR.py" beforeDir="false" afterPath="$PROJECT_DIR$/Read_Comments/ytbcomentsFR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Read_Comments/ytbcomentsIT.py" beforeDir="false" afterPath="$PROJECT_DIR$/Read_Comments/ytbcomentsIT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Sentiment_Analysis/CN_sentiment_analysis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Sentiment_Analysis/DE_sentiment_analysis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Sentiment_Analysis/EN_sentiment_analysis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Sentiment_Analysis/FR_sentiment_analysis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Sentiment_Analysis/IT_sentiment_analysis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Sentiment_Analysis/SP_sentiment_analysis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Sentiment_Analysis/preprocessing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Twitter_Datasets/TwitterData_CN.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Twitter_Datasets/TwitterData_CNT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Twitter_Datasets/TwitterData_DE.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Twitter_Datasets/TwitterData_EN.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Twitter_Datasets/TwitterData_ES.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Twitter_Datasets/TwitterData_FR.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Twitter_Datasets/TwitterData_IT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/YT_Sentiment_Analysis/Sentiment.english.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/Sentiment.english.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/YT_Sentiment_Analysis/sentiment.French.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.French.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/YT_Sentiment_Analysis/sentiment.German.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.German.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/YT_Sentiment_Analysis/sentiment.chinois.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.chinois.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/YT_Sentiment_Analysis/sentiment.italie.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.italie.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/YT_Sentiment_Analysis/sentiment.spanish.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.spanish.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Youtube_Datasets/all_comments.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Youtube_Datasets/all_commentsALL.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Youtube_Datasets/all_commentsCH.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Youtube_Datasets/all_commentsES.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Youtube_Datasets/all_commentsFR.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/Youtube_Datasets/all_commentsIT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/merge_csv.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Prediction_Project-main1/twitter_scraper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sentiment_Analysis/CN_sentiment_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sentiment_Analysis/CN_sentiment_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sentiment_Analysis/DE_sentiment_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sentiment_Analysis/DE_sentiment_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sentiment_Analysis/EN_sentiment_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sentiment_Analysis/EN_sentiment_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sentiment_Analysis/FR_sentiment_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sentiment_Analysis/FR_sentiment_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sentiment_Analysis/IT_sentiment_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sentiment_Analysis/IT_sentiment_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sentiment_Analysis/SP_sentiment_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sentiment_Analysis/SP_sentiment_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_analysis/Ytb_Data_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_analysis/Ytb_Data_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YT_Sentiment_Analysis/Sentiment.english.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/Sentiment.english.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.French.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.French.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.German.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.German.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.chinois.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.chinois.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.italie.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.italie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.spanish.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.spanish.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +132,7 @@
       <workItem from="1714072256734" duration="10870000" />
       <workItem from="1714136898106" duration="1562000" />
       <workItem from="1714144160981" duration="18533000" />
-      <workItem from="1714252706632" duration="1459000" />
+      <workItem from="1714252706632" duration="2014000" />
     </task>
     <servers />
   </component>
