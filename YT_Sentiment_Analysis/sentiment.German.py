@@ -59,6 +59,10 @@ def sentiment(label):
 
 
 de['Sentiment'] = de['Polarity'].apply(sentiment)
+
+de.to_csv('../Sentiment_Youtube_Data/de_comm.csv')
+
+
 #
 # print(de.head())
 # # plot the sentiments
@@ -163,112 +167,3 @@ de['Sentiment'] = de['Polarity'].apply(sentiment)
 #
 # print(average_polarity.values)
 
-###########################
-
-
-<<<<<<< HEAD
-
-# Perform seasonal decomposition
-result = seasonal_decompose(de['Polarity'], model='additive', period=365)  # Assuming yearly seasonality
-
-# Plot the decomposition
-
-# Original Series
-plt.figure(figsize=(12, 8))
-plt.plot(de['Date'], de['Polarity'], label='Original', color="blue")
-plt.legend(loc='best')
-plt.title('Original Series')
-plt.show()
-
-# Trend Component
-plt.figure(figsize=(12, 8))
-plt.plot(de['Date'], result.trend, label='Trend', color="blue")
-plt.legend(loc='best')
-plt.title('Trend Component')
-plt.show()
-
-# Seasonal Component
-plt.figure(figsize=(12, 8))
-plt.plot(de['Date'], result.seasonal, label='Seasonality', color="blue")
-plt.legend(loc='best')
-plt.title('Seasonal Component')
-plt.show()
-
-# Residual Component (Noise)
-plt.figure(figsize=(12, 8))
-plt.plot(de['Date'], result.resid, label='Residuals', color="blue")
-plt.legend(loc='best')
-plt.title('Residual Component')
-plt.show()
-
-# Perform Augmented Dickey-Fuller test
-result_adf = adfuller(de['Polarity'])
-
-# Plot the time series
-plt.figure(figsize=(12, 8), facecolor='None')
-plt.plot(de['Date'], de['Polarity'], label='Original', color="blue")
-plt.legend(loc='best')
-plt.title('Original Series')
-
-# Display the result of the stationarity test
-if result_adf[1] <= 0.05:
-    stationarity_result = "The series is likely stationary"
-else:
-    stationarity_result = "The series is likely non-stationary"
-
-# Display the stationarity result as text on the plot
-plt.text(de['Date'].iloc[-1], de['Polarity'].iloc[-1], stationarity_result,
-         verticalalignment='bottom', horizontalalignment='right', fontsize=12, bbox=dict(facecolor='white', alpha=0.5))
-
-plt.show()
-
-
-
-# Compute and plot ACF
-plt.figure(figsize=(12, 6))
-plot_acf(de['Polarity'], lags=50, ax=plt.gca())  # Adjust the number of lags as needed
-plt.title('Autocorrelation Function (ACF)')
-plt.xlabel('Lag')
-plt.ylabel('Autocorrelation')
-plt.show()
-
-=======
-# Resample the data on a weekly basis and calculate mean polarity for each week
-weekly_polarity = de.resample('W-Mon', on='Date')['Polarity'].mean()
-weekly_polarity.fillna(0, inplace=True)
-
-# Plot the weekly polarity
-plt.figure(figsize=(12, 6))
-weekly_polarity.plot(marker='o', color='b')
-plt.title('Weekly Polarity')
-plt.xlabel('Weeks')
-plt.ylabel('Average Polarity')
-plt.grid(True)
-plt.show()
-
-# Create a new DataFrame containing week number and mean polarity
-weekly_polarity_dataset = pd.DataFrame({
-    'Week_Number': weekly_polarity.index,  # week number
-    'Mean_Polarity': weekly_polarity.values      # Use the mean polarity values
-})
-# Convert 'date' column to datetime
-weekly_polarity_dataset['Week_Number'] = pd.to_datetime(weekly_polarity_dataset['Week_Number'])
-
-# Sort the DataFrame by the 'date' column
-weekly_polarity_dataset = weekly_polarity_dataset.sort_values(by='Week_Number')
-
-print(weekly_polarity_dataset)
-
-# Perform seasonal decomposition
-result = seasonal_decompose(weekly_polarity_dataset['Mean_Polarity'], model='additive', period=4)
-
-
-# Trend Component
-plt.figure(figsize=(12, 8))
-plt.plot(weekly_polarity_dataset['Week_Number'], result.trend, label='Trend', color="blue")
-plt.legend(loc='best')
-plt.xlabel('Weeks')
-plt.ylabel('Average Polarity')
-plt.title('Trend Component')
-plt.show()
->>>>>>> 8cd62c7996ca63f1c44b4d449e9866419e43da4c

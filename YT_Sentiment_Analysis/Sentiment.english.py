@@ -10,6 +10,11 @@ style.use('ggplot')
 from wordcloud import WordCloud
 from Sentiment_Analysis.preprocessing import *
 
+from statsmodels.tsa.seasonal import seasonal_decompose
+from statsmodels.tsa.stattools import adfuller
+from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
+
+
 # read csv files
 eng = pd.read_csv('../Youtube_Datasets/all_comments.csv')
 
@@ -21,6 +26,11 @@ eng.Text = eng['Text'].apply(data_processing_en)
 # drop duplicate tweets
 eng = eng.drop_duplicates('Text')
 
+# Convert 'date' column to datetime
+eng['Date'] = pd.to_datetime(eng['Date'])
+
+# Sort the DataFrame by the 'date' column
+eng = eng.sort_values(by='Date')
 
 # Create a SentimentIntensityAnalyzer object
 analyzer = SentimentIntensityAnalyzer()
@@ -50,6 +60,10 @@ def sentiment(label):
 
 eng['Sentiment'] = eng['Polarity'].apply(sentiment)
 
+eng.to_csv('../Sentiment_Youtube_Data/eng_comm.csv')
+
+
+
 print(eng.head())
 # plot the sentiments
 fig = plt.figure(figsize=(5, 5))
@@ -65,13 +79,13 @@ tags.plot(kind='pie', autopct='%1.1f%%', shadow=True, colors=colors,
 
 plt.title('Distribution of sentiments')
 
-# Sorting Positive Tweets by Polarity
-pos_tweets = eng[eng.Sentiment == 'Positive']
-pos_tweets = pos_tweets.sort_values(['Polarity'], ascending=False)
-print(pos_tweets['Text'].head(10))
+# Sorting Positive comments by Polarity
+pos_texts = eng[eng.Sentiment == 'Positive']
+pos_texts = pos_texts.sort_values(['Polarity'], ascending=False)
+print(pos_texts['Text'].head(10))
 
 # show most frequent words in positive tweets
-text = ' '.join([word for word in pos_tweets['Text']])
+text = ' '.join([word for word in pos_texts['Text']])
 plt.figure(figsize=(20, 15), facecolor='None')
 wordcloud = WordCloud(max_words=500, width=1600, height=800).generate(text)
 plt.imshow(wordcloud, interpolation='bilinear')
@@ -79,13 +93,13 @@ plt.axis("off")
 plt.title('Most frequent words in positive comments', fontsize=19)
 plt.show()
 
-# Sorting Negative Tweets by Polarity
-neg_tweets = eng[eng.Sentiment == 'Negative']
-neg_tweets = neg_tweets.sort_values(['Polarity'], ascending=False)
-print(neg_tweets.head())
+# Sorting Negative comments by Polarity
+neg_texts = eng[eng.Sentiment == 'Negative']
+neg_texts = neg_texts.sort_values(['Polarity'], ascending=False)
+print(neg_texts.head())
 
 # show most frequent words in negative tweets
-text = ' '.join([word for word in neg_tweets['Text']])
+text = ' '.join([word for word in neg_texts['Text']])
 plt.figure(figsize=(20, 15), facecolor='None')
 wordcloud = WordCloud(max_words=500, width=1600, height=800).generate(text)
 plt.imshow(wordcloud, interpolation='bilinear')
@@ -93,13 +107,13 @@ plt.axis("off")
 plt.title('Most frequent words in negative comments', fontsize=19)
 plt.show()
 
-# Sorting neutral Tweets by Polarity
-neutral_tweets = eng[eng.Sentiment == 'Neutral']
-neutral_tweets = neutral_tweets.sort_values(['Polarity'], ascending=False)
-print(neutral_tweets.head())
+# Sorting neutral comments by Polarity
+neutral_texts = eng[eng.Sentiment == 'Neutral']
+neutral_texts = neutral_texts.sort_values(['Polarity'], ascending=False)
+print(neutral_texts.head())
 
 # show most frequent words in neutral tweets
-text = ' '.join([word for word in neutral_tweets['Text']])
+text = ' '.join([word for word in neutral_texts['Text']])
 plt.figure(figsize=(20, 15), facecolor='None')
 wordcloud = WordCloud(max_words=500, width=1600, height=800).generate(text)
 plt.imshow(wordcloud, interpolation='bilinear')
@@ -152,4 +166,3 @@ plt.title('Low Polarity per Date')
 plt.show()
 
 print(average_polarity.values)
-

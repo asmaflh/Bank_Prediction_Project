@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0907b1a-1cac-46b4-aaa0-e7d8ae383cd7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Data_analysis/Ytb_Data_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_analysis/Ytb_Data_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Read_Comments/ytbcomensEN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Read_Comments/ytbcomensEN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Read_Comments/ytbcomentsALL.py" beforeDir="false" afterPath="$PROJECT_DIR$/Read_Comments/ytbcomentsALL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Read_Comments/ytbcomentsCH.py" beforeDir="false" afterPath="$PROJECT_DIR$/Read_Comments/ytbcomentsCH.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Read_Comments/ytbcomentsES.py" beforeDir="false" afterPath="$PROJECT_DIR$/Read_Comments/ytbcomentsES.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Read_Comments/ytbcomentsFR.py" beforeDir="false" afterPath="$PROJECT_DIR$/Read_Comments/ytbcomentsFR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Read_Comments/ytbcomentsIT.py" beforeDir="false" afterPath="$PROJECT_DIR$/Read_Comments/ytbcomentsIT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Time_series_dec/FCA.py" beforeDir="false" afterPath="$PROJECT_DIR$/Time_series_dec/Twitter/Eng_Fca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Time_series_dec/FCA2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Time_series_dec/Twitter/all_lng_Fca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Time_series_dec/Lattice.gv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Time_series_dec/Lattice.gv.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Time_series_dec/csvtoxml.py" beforeDir="false" afterPath="$PROJECT_DIR$/Time_series_dec/csvtoxml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Time_series_dec/first_context.bin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Time_series_dec/Xmls/Eng_context.bin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Time_series_dec/first_context.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Time_series_dec/Csvs/Eng_context.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Time_series_dec/second_context.bin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Time_series_dec/Xmls/All_context.bin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Time_series_dec/second_context.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Time_series_dec/Csvs/All_context.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YT_Sentiment_Analysis/Sentiment.english.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/Sentiment.english.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.French.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.French.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.German.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.German.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.chinois.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.chinois.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.italie.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.italie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.spanish.py" beforeDir="false" afterPath="$PROJECT_DIR$/YT_Sentiment_Analysis/sentiment.spanish.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,25 +43,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/PycharmProjects/3csProject&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/HP/PycharmProjects/3csProject/Time_series_dec/YTB"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\PycharmProjects\3csProject\Time_series_dec\YTB" />
+      <recent name="C:\Users\HP\PycharmProjects\3csProject\Time_series_dec" />
+      <recent name="C:\Users\HP\PycharmProjects\3csProject\Time_series_dec\Xmls" />
+      <recent name="C:\Users\HP\PycharmProjects\3csProject\Time_series_dec\Csvs" />
       <recent name="C:\Users\HP\PycharmProjects\3csProject" />
-      <recent name="C:\Users\HP\PycharmProjects\3csProject\Youtube_Datasets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\PycharmProjects\3csProject\Time_series_dec\Xmls" />
+      <recent name="C:\Users\HP\PycharmProjects\3csProject\Time_series_dec\Twitter" />
+      <recent name="C:\Users\HP\PycharmProjects\3csProject\Time_series_dec\Csvs" />
       <recent name="C:\Users\HP\PycharmProjects\3csProject\Time_series_dec" />
       <recent name="C:\Users\HP\PycharmProjects\3csProject\Sentiment_Analysis" />
-      <recent name="C:\Users\HP\PycharmProjects\3csProject\Sentiment_Analysis\Classification" />
-      <recent name="C:\Users\HP\PycharmProjects\3csProject\Sentiment_Twitter_Data" />
-      <recent name="C:\Users\HP\PycharmProjects\3csProject\Sentiment_Analysis_Visualization\Twitter" />
     </key>
   </component>
   <component name="RunManager">
@@ -132,7 +144,16 @@
       <workItem from="1714072256734" duration="10870000" />
       <workItem from="1714136898106" duration="1562000" />
       <workItem from="1714144160981" duration="18533000" />
-      <workItem from="1714252706632" duration="2332000" />
+      <workItem from="1714252706632" duration="3254000" />
+      <workItem from="1714403193080" duration="692000" />
+      <workItem from="1714408320564" duration="47000" />
+      <workItem from="1714598329558" duration="1532000" />
+      <workItem from="1714659673614" duration="11030000" />
+      <workItem from="1714770208868" duration="5134000" />
+      <workItem from="1714820059122" duration="14217000" />
+      <workItem from="1714930131053" duration="4224000" />
+      <workItem from="1714943130306" duration="467000" />
+      <workItem from="1715006375488" duration="8084000" />
     </task>
     <servers />
   </component>
@@ -165,19 +186,28 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/3csProject$sentiment_italie.coverage" NAME="sentiment.italie Coverage Results" MODIFIED="1710977057578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/YT_Sentiment_Analysis" />
     <SUITE FILE_PATH="coverage/3csProject$testing.coverage" NAME="testing Coverage Results" MODIFIED="1713831850951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec" />
+    <SUITE FILE_PATH="coverage/3csProject$all_lng_Fca.coverage" NAME="all_lng_Fca Coverage Results" MODIFIED="1714934744203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec/Twitter" />
     <SUITE FILE_PATH="coverage/3csProject$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1713535101295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/3csProject$data_analysis.coverage" NAME="data_analysis Coverage Results" MODIFIED="1709421765780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis" />
     <SUITE FILE_PATH="coverage/3csProject$yahooFinance_scrapper.coverage" NAME="yahooFinance_scrapper Coverage Results" MODIFIED="1713113383844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/3csProject$test.coverage" NAME="test Coverage Results" MODIFIED="1714154445093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec" />
+    <SUITE FILE_PATH="coverage/3csProject$De_Fca.coverage" NAME="De_Fca Coverage Results" MODIFIED="1715007336499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec/Twitter" />
+    <SUITE FILE_PATH="coverage/3csProject$All_YTB.coverage" NAME="All_YTB Coverage Results" MODIFIED="1715015359214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec/YTB" />
+    <SUITE FILE_PATH="coverage/3csProject$test.coverage" NAME="test Coverage Results" MODIFIED="1715017783628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/3csProject$FCA2.coverage" NAME="FCA2 Coverage Results" MODIFIED="1714162024370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec" />
+    <SUITE FILE_PATH="coverage/3csProject$It_Fca.coverage" NAME="It_Fca Coverage Results" MODIFIED="1715007992300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec/Twitter" />
     <SUITE FILE_PATH="coverage/3csProject$FR_sentiment_analysis.coverage" NAME="FR_sentiment_analysis Coverage Results" MODIFIED="1713626620040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis" />
     <SUITE FILE_PATH="coverage/3csProject$sentiment_spanish.coverage" NAME="sentiment.spanish Coverage Results" MODIFIED="1710974999873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bank_Prediction_Project-main1/YT_Sentiment_Analysis" />
     <SUITE FILE_PATH="coverage/3csProject$DE_sentiment_analysis.coverage" NAME="DE_sentiment_analysis Coverage Results" MODIFIED="1713626548857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis" />
+    <SUITE FILE_PATH="coverage/3csProject$Fr_Fca.coverage" NAME="Fr_Fca Coverage Results" MODIFIED="1715007869831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec/Twitter" />
+    <SUITE FILE_PATH="coverage/3csProject$fr_ytb_tw.coverage" NAME="fr_ytb&amp;tw Coverage Results" MODIFIED="1715015840009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec" />
     <SUITE FILE_PATH="coverage/3csProject$CN_sentiment_analysis.coverage" NAME="CN_sentiment_analysis Coverage Results" MODIFIED="1713626294834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis" />
-    <SUITE FILE_PATH="coverage/3csProject$csvtoxml.coverage" NAME="csvtoxml Coverage Results" MODIFIED="1714162485223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec" />
+    <SUITE FILE_PATH="coverage/3csProject$csvtoxml.coverage" NAME="csvtoxml Coverage Results" MODIFIED="1715015989924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec" />
     <SUITE FILE_PATH="coverage/3csProject$preprocessing.coverage" NAME="preprocessing Coverage Results" MODIFIED="1709417782641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis" />
     <SUITE FILE_PATH="coverage/3csProject$main.coverage" NAME="main Coverage Results" MODIFIED="1707127495505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/3csProject$Eng_Fca.coverage" NAME="Eng_Fca Coverage Results" MODIFIED="1714933420611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec/Twitter" />
     <SUITE FILE_PATH="coverage/3csProject$SP_sentiment_analysis.coverage" NAME="SP_sentiment_analysis Coverage Results" MODIFIED="1713626361481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis" />
+    <SUITE FILE_PATH="coverage/3csProject$Cn_Fca.coverage" NAME="Cn_Fca Coverage Results" MODIFIED="1715007006367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec/Twitter" />
+    <SUITE FILE_PATH="coverage/3csProject$es_Fca.coverage" NAME="es_Fca Coverage Results" MODIFIED="1715007703106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec/Twitter" />
     <SUITE FILE_PATH="coverage/3csProject$ytb_sentimentanalysis.coverage" NAME="ytb_sentimentanalysis Coverage Results" MODIFIED="1707762133095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/3csProject$twitter_scraper.coverage" NAME="twitter_scraper Coverage Results" MODIFIED="1708017770108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/3csProject$chinese_pre.coverage" NAME="chinese_pre Coverage Results" MODIFIED="1709412789954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -187,11 +217,12 @@
     <SUITE FILE_PATH="coverage/3csProject$IT_sentiment_analysis.coverage" NAME="IT_sentiment_analysis Coverage Results" MODIFIED="1713626671595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis" />
     <SUITE FILE_PATH="coverage/3csProject$English.coverage" NAME="English Coverage Results" MODIFIED="1713627605630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis/Visualization" />
     <SUITE FILE_PATH="coverage/3csProject$en_dec.coverage" NAME="en_dec Coverage Results" MODIFIED="1713804453436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec" />
+    <SUITE FILE_PATH="coverage/3csProject$eng_ytb_tw.coverage" NAME="eng_ytb&amp;tw Coverage Results" MODIFIED="1715015587345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec" />
     <SUITE FILE_PATH="coverage/3csProject$sentiment_analysis.coverage" NAME="sentiment_analysis Coverage Results" MODIFIED="1709131037434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis" />
-    <SUITE FILE_PATH="coverage/3csProject$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1713534978990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/3csProject$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1714930815898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/3csProject$FCA.coverage" NAME="FCA Coverage Results" MODIFIED="1714159061023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Time_series_dec" />
     <SUITE FILE_PATH="coverage/3csProject$merge_csv.coverage" NAME="merge_csv Coverage Results" MODIFIED="1708113875995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/3csProject$Doctests_in_series.coverage" NAME="Doctests in series Coverage Results" MODIFIED="1713048082388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/3csProject/Lib/site-packages/pandas/core" />
-    <SUITE FILE_PATH="coverage/3csProject$EN_sentiment_analysis.coverage" NAME="EN_sentiment_analysis Coverage Results" MODIFIED="1713628451862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis" />
+    <SUITE FILE_PATH="coverage/3csProject$EN_sentiment_analysis.coverage" NAME="EN_sentiment_analysis Coverage Results" MODIFIED="1714255303337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sentiment_Analysis" />
   </component>
 </project>

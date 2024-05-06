@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 import pandas as pd
 
 # Read the CSV file
-df = pd.read_csv('second_context.csv')
+df = pd.read_csv('Csvs/Yb&Tw_FRcontext.csv')
 
 # Get the unique weeks from the Week_Number column
 weeks = df['Week_Number'].unique()
@@ -32,11 +32,6 @@ for attr in attrs:
     att = ET.SubElement(binary_context, 'Attribute')
     att.text = attr
 
-# Add BinRel elements
-# bin_rels = [
-#     (0, 0), (0, 2), (0, 3), (1, 1), (2, 7),
-#     (3, 1), (6, 1), (6, 4), (8, 1)
-# ]
 
 
 # Add Object elements
@@ -48,13 +43,9 @@ for idxO, row in df.iterrows():
             bin_rel.set('idxO', str(idxO))  # Row number
             bin_rel.set('idxA', str(idxA))
 
-# for idxO, idxA in bin_rels:
-#     bin_rel = ET.SubElement(binary_context, 'BinRel')
-#     bin_rel.set('idxO', str(idxO))
-#     bin_rel.set('idxA', str(idxA))
 
 # Create an ElementTree object from the root element
 tree = ET.ElementTree(root)
 
 # Write the ElementTree object to an XML file
-tree.write('second_context.bin.xml')
+tree.write('Xmls/Yb&Tw_FRcontext.bin.xml')
