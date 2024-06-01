@@ -1,6 +1,5 @@
 import pandas as pd
 import seaborn as sns
-from bixin import predict
 import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
@@ -20,6 +19,9 @@ cn.Tweet = cn['Tweet'].apply(data_processing_cn)
 
 # drop duplicate tweets
 cn = cn.drop_duplicates('Tweet')
+
+
+from bixin import predict
 def polarity(text):
     try:
         pol = predict(text)
@@ -27,13 +29,9 @@ def polarity(text):
     except Exception:
         pol = 0
     return pol
-
-
 cn['Polarity'] = cn['Tweet'].apply(polarity)
 
 print(cn.head(10))
-
-
 def sentiment(label):
     if label <0:
         return "Negative"

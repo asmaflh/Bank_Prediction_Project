@@ -24,8 +24,6 @@ es = es.drop_duplicates('Tweet')
 
 
 analyzer = create_analyzer(task="sentiment", lang="es")
-
-
 def sentiment(text):
     try:
         sen = analyzer.predict(text).output
@@ -38,13 +36,9 @@ def sentiment(text):
     else:
         sen="Neutral"
     return sen
-
-
 es['Sentiment'] = es['Tweet'].apply(sentiment)
 
 print(es.head(10))
-
-
 def polarity(label):
     if label == "Negative":
         return -1
@@ -52,8 +46,6 @@ def polarity(label):
         return 1
     else:
         return 0
-
-
 es['Polarity'] = es['Sentiment'].apply(polarity)
 # es.to_csv("TwitterData_Class_ES.csv")
 

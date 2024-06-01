@@ -34,7 +34,7 @@ y = np.array([
     cn['Tweet'].count()])
 
 plt.pie(y, labels=mylabels)
-plt.title('Distribution of tweets per countries')
+plt.title('Distribution of tweets per languages')
 plt.show()
 
 # ploting Number of Tweets Mentioning Each Hashtag

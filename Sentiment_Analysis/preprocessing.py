@@ -8,6 +8,7 @@ import stopwordsiso
 
 stop_words_en = set(stopwords.words('english'))
 stop_words_fr = set(stopwords.words('french'))
+print(stop_words_fr)
 stop_words_it = set(stopwords.words('italian'))
 stop_words_sp = set(stopwords.words('spanish'))
 stop_words_de = set(stopwords.words('german'))

@@ -1,13 +1,9 @@
 import asyncio
 from twscrape import API
 import pandas as pd
-
 all_tweets = []
-
-
 async def main():
     api = API()  # or API("path-to.db") - default is `accounts.db`
-
     # ADD ACCOUNTS (for CLI usage see BELOW)
     # await api.pool.add_account("user", "psw", "user@gmail.com", "psw")
     # await api.pool.login_all()

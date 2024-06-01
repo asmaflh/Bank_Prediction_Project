@@ -154,7 +154,7 @@ merged_df = pd.merge(weekly_polarity_dataset, weekly_Close_dataset, on='Week_Num
 
 
 def intervals(column):
-    interval_size = 10  # Define the size of each interval
+    interval_size = 12  # Define the size of each interval
     num_intervals = len(merged_df) // interval_size
 
     # Determine if the curve is increasing, decreasing, or stationary in each interval
@@ -312,7 +312,7 @@ print(merged_df.head(10))
 
 merged_df = merged_df.drop(['Mean_Polarity', 'Polarity_Trend','Mean_Polarity_YTB','Polarity_Trend_YTB', 'Mean_Close', 'Trend'], axis=1)
 print(merged_df.head(50))
-merged_df.to_csv('Csvs/Yb&Tw_context.csv')
+merged_df.to_csv('Csvs/Yb&Tw_Eng_context.csv')
 from concepts import Context
 
 bools_df = merged_df[['Sen_I_Tw', 'Sen_D_Tw', 'Sen_S_Tw', 'Close_I', 'Close_D', 'Close_S','Sen_I_Ytb', 'Sen_D_Ytb', 'Sen_S_Ytb']]

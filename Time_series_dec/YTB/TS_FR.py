@@ -180,7 +180,7 @@ print(merged_df.head(10))
 
 
 def intervals(column):
-    interval_size = 10  # Define the size of each interval
+    interval_size = 12  # Define the size of each interval
     num_intervals = len(merged_df) // interval_size
 
     # Determine if the curve is increasing, decreasing, or stationary in each interval
@@ -230,7 +230,7 @@ for start_week, end_week, trend in trend_resultss:
         merged_df.loc[start_week:end_week, 'Close_S'] = 1
 merged_df = merged_df.drop(['Mean_Polarity', 'Polarity_Trend', 'Mean_Close', 'Trend'], axis=1)
 print(merged_df.head(50))
-# merged_df.to_csv('../Csvs/FrContextYTB.csv')
+merged_df.to_csv('../Csvs/FrContextYTB.csv')
 from concepts import Context
 bools_df = merged_df[['Sen_I', 'Sen_D', 'Sen_S', 'Close_I', 'Close_D', 'Close_S']]
 bools = bools_df.values.tolist()

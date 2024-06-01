@@ -180,7 +180,7 @@ print(merged_df.head(10))
 
 
 def intervals(column):
-    interval_size = 10  # Define the size of each interval
+    interval_size = 12  # Define the size of each interval
     num_intervals = len(merged_df) // interval_size
 
     # Determine if the curve is increasing, decreasing, or stationary in each interval

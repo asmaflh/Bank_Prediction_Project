@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 from matplotlib import style
 
 style.use('ggplot')
-from statsmodels.tsa.seasonal import seasonal_decompose
 # read csv files
+from statsmodels.tsa.seasonal import seasonal_decompose
 
 eng = pd.read_csv('../../Sentiment_Twitter_Data/TwitterData_Class_EN.csv')
 # Convert 'date' column to datetime
@@ -41,9 +41,9 @@ weekly_polarity_dataset = weekly_polarity_dataset.sort_values(by='Week_Number')
 
 print(weekly_polarity_dataset)
 
+
 # Perform seasonal decomposition
 result = seasonal_decompose(weekly_polarity_dataset['Mean_Polarity'], model='additive', period=20)
-
 # Trend Component
 plt.figure(figsize=(12, 8))
 plt.plot(weekly_polarity_dataset['Week_Number'], result.trend, label='Trend', color="blue")
@@ -52,7 +52,6 @@ plt.xlabel('Weeks')
 plt.ylabel('Average Polarity')
 plt.title('Trend Component')
 plt.show()
-
 # Residual Component (Noise)
 plt.figure(figsize=(12, 8))
 plt.plot(weekly_polarity_dataset['Week_Number'], result.resid, label='Residuals', color="blue")
@@ -182,9 +181,8 @@ print(merged_df.head(10))
 
 
 def intervals(column):
-    interval_size = 10  # Define the size of each interval
+    interval_size = 12  # Define the size of each interval
     num_intervals = len(merged_df) // interval_size
-
     # Determine if the curve is increasing, decreasing, or stationary in each interval
     results = []  # List to store results for each interval
     for i in range(num_intervals):
@@ -196,11 +194,8 @@ def intervals(column):
         results.append((start_week, end_week, trend))
 
     return results
-
-
 # Apply the intervals function to merged_df
 trend_results = intervals('Polarity_Trend')
-
 # Create three new columns based on the result
 merged_df['Sen_I'] = 0
 merged_df['Sen_D'] = 0
@@ -233,6 +228,8 @@ for start_week, end_week, trend in trend_resultss:
 merged_df = merged_df.drop(['Mean_Polarity', 'Polarity_Trend', 'Mean_Close', 'Trend'], axis=1)
 print(merged_df.head(50))
 merged_df.to_csv('../Csvs/Eng_context.csv')
+
+
 from concepts import Context
 
 bools_df = merged_df[['Sen_I', 'Sen_D', 'Sen_S', 'Close_I', 'Close_D', 'Close_S']]

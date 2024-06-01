@@ -453,7 +453,7 @@ print(merged_df.head(10))
 
 
 def intervals(column):
-    interval_size = 10  # Define the size of each interval
+    interval_size = 12  # Define the size of each interval
     num_intervals = len(merged_df) // interval_size
 
     # Determine if the curve is increasing, decreasing, or stationary in each interval
@@ -585,7 +585,7 @@ merged_df = merged_df.drop(
     ['Polarity_Trend_en', 'Trend', 'Polarity_Trend_es', 'Polarity_Trend_de', 'Polarity_Trend_cn', 'Polarity_Trend_fr',
      'Polarity_Trend_it'], axis=1)
 print(merged_df.head(50))
-merged_df.to_csv('..\Csvs\second_context_YTB.csv')
+merged_df.to_csv('..\Csvs\All_context_YTB.csv')
 #########################################################
 from concepts import Context
 

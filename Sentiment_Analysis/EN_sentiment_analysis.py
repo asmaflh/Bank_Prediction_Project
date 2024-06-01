@@ -26,8 +26,6 @@ eng = eng.drop_duplicates('Tweet')
 
 # Create a SentimentIntensityAnalyzer object
 analyzer = SentimentIntensityAnalyzer()
-
-
 # Define a function to calculate polarity using VADER
 def polarity(text):
     # Use the polarity_scores() method of the analyzer object to get sentiment scores
@@ -35,12 +33,8 @@ def polarity(text):
     # Return the polarity score
     return sentiment_scores['compound']  # 'compound' score represents overall sentiment polarity
 
-
 eng['Polarity'] = eng['Tweet'].apply(polarity)
-
 print(eng.head(10))
-
-
 def sentiment(label):
     if label <= -0.05:
         return "Negative"
@@ -48,8 +42,6 @@ def sentiment(label):
         return "Positive"
     else:
         return "Neutral"
-
-
 eng['Sentiment'] = eng['Polarity'].apply(sentiment)
 #eng.to_csv("TwitterData_Class_EN.csv")
 print(eng.head())

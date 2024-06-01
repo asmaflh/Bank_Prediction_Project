@@ -21,8 +21,6 @@ it.Tweet = it['Tweet'].apply(data_processing_it)
 it = it.drop_duplicates('Tweet')
 
 classifier = pipeline("text-classification", model='MilaNLProc/feel-it-italian-sentiment', top_k=2)
-
-
 def sentiment(text):
     try:
         prediction = classifier(text)[0][0]['label']
@@ -34,15 +32,11 @@ def sentiment(text):
 it['Sentiment'] = it['Tweet'].apply(sentiment)
 
 print(it.head(10))
-
-
 def polarity(label):
     if label == "negative":
         return -1
     else:
         return 1
-
-
 it['Polarity'] = it['Sentiment'].apply(polarity)
 it.to_csv("TwitterData_Class_IT.csv")
 
